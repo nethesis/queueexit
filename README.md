@@ -1,6 +1,6 @@
 # QueueExit FreePBX Module
-QueueExit FreePBX module allow to configure different destination for calls that fail from queue.
-This module can differentiate the call destination based on the value of QUEUESTATUS variable.
+QueueExit FreePBX module allow to configure a different destination for failed calls of a queue.
+This module can choose a different destination based on the value of QUEUESTATUS variable.
 
 ## Configuration
 
@@ -18,10 +18,6 @@ It is possible to differentiate the destination of the call based on the value o
 - LEAVEUNAVAIL
 - CONTINUE
 
-# Resources
-
-Code Snippits: <https://github.com/jfinstrom/FreePBX-gists>
-
 ## License
 
-GPL
+GPL v2

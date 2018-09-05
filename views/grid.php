@@ -24,6 +24,7 @@
 //Via BMO AJAX call
 $dataurl = "ajax.php?module=queueexit&command=getJSON&jdata=grid";
 ?>
+
 <table id="mygrid" data-url="<?php echo $dataurl?>" data-cache="false" data-toolbar="#toolbar-all" data-maintain-selected="true" data-show-columns="true" data-show-toggle="true" data-toggle="table" data-pagination="true" data-search="true" class="table table-striped">
 	<thead>
 		<tr>
