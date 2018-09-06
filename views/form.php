@@ -76,7 +76,7 @@ echo $module_hook->hookHtml;
     </div>
     <div class="row">
         <div class="col-md-12">
-            <span id="timeout_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when TIMEOUT is value of QUEUESTATUS")?></span>
+            <span id="timeout_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when call leave the queue because has reached maximum waiting time")?></span>
         </div>
     </div>
     <!--END TIMEOUT DESTINATION-->
@@ -94,7 +94,7 @@ echo $module_hook->hookHtml;
     </div>
     <div class="row">
         <div class="col-md-12">
-            <span id="full_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when FULL is value of QUEUESTATUS")?></span>
+            <span id="full_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when call leave because queue has reached maximum number of waiting calls")?></span>
         </div>
     </div>
     <!--END FULL DESTINATION-->
@@ -112,7 +112,7 @@ echo $module_hook->hookHtml;
     </div>
     <div class="row">
         <div class="col-md-12">
-            <span id="joinempty_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when JOINEMPTY is value of QUEUESTATUS")?></span>
+            <span id="joinempty_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when call leave the queue because there wasn't any agent")?></span>
         </div>
     </div>
     <!--END JOINEMPTY DESTINATION-->
@@ -130,7 +130,7 @@ echo $module_hook->hookHtml;
     </div>
     <div class="row">
         <div class="col-md-12">
-            <span id="leaveempty_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when LEAVEEMPTY is value of QUEUESTATUS")?></span>
+            <span id="leaveempty_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when call leave the queue because during the waiting all available agent logged off")?></span>
         </div>
     </div>
     <!--END LEAVEEMPTY DESTINATION-->
@@ -148,7 +148,7 @@ echo $module_hook->hookHtml;
     </div>
     <div class="row">
         <div class="col-md-12">
-            <span id="joinunavail_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when JOINUNAVAIL is value of QUEUESTATUS")?></span>
+            <span id="joinunavail_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when call leave the queue because there wasn't available agents")?></span>
         </div>
     </div>
     <!--END JOINUNAVAIL DESTINATION-->
@@ -166,7 +166,7 @@ echo $module_hook->hookHtml;
     </div>
     <div class="row">
         <div class="col-md-12">
-            <span id="leaveunavail_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when LEAVEUNAVAIL is value of QUEUESTATUS")?></span>
+            <span id="leaveunavail_destination-help" class="help-block fpbx-help-block"><?php echo _("Destination when call leave the queue because during the waiting all available agents changed status")?></span>
         </div>
     </div>
     <!--END LEAVEUNAVAIL DESTINATION-->

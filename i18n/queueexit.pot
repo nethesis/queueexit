@@ -80,7 +80,7 @@ msgid "Timeout Destination"
 msgstr ""
 
 #: views/form.php:79
-msgid "Destination when TIMEOUT is value of QUEUESTATUS"
+msgid "Destination when call leave the queue because has reached maximum waiting time"
 msgstr ""
 
 #: views/form.php:87
@@ -88,7 +88,7 @@ msgid "Full Destination"
 msgstr ""
 
 #: views/form.php:97
-msgid "Destination when FULL is value of QUEUESTATUS"
+msgid "Destination when call leave because queue has reached maximum number of waiting calls"
 msgstr ""
 
 #: views/form.php:105
@@ -96,7 +96,7 @@ msgid "Joinempty Destination"
 msgstr ""
 
 #: views/form.php:115
-msgid "Destination when JOINEMPTY is value of QUEUESTATUS"
+msgid "Destination when call leave the queue because there wasn't any agent"
 msgstr ""
 
 #: views/form.php:123
@@ -104,7 +104,7 @@ msgid "Leaveempty Destination"
 msgstr ""
 
 #: views/form.php:133
-msgid "Destination when LEAVEEMPTY is value of QUEUESTATUS"
+msgid "Destination when call leave the queue because during the waiting all available agent logged off"
 msgstr ""
 
 #: views/form.php:141
@@ -112,7 +112,7 @@ msgid "Joinunavail Destination"
 msgstr ""
 
 #: views/form.php:151
-msgid "Destination when JOINUNAVAIL is value of QUEUESTATUS"
+msgid "Destination when call leave the queue because there wasn't available agents"
 msgstr ""
 
 #: views/form.php:159
@@ -120,7 +120,7 @@ msgid "Leaveunavail Destination"
 msgstr ""
 
 #: views/form.php:169
-msgid "Destination when LEAVEUNAVAIL is value of QUEUESTATUS"
+msgid "Destination when call leave the queue because during the waiting all available agents changed status"
 msgstr ""
 
 #: views/form.php:177

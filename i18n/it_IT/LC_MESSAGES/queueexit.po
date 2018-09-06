@@ -79,48 +79,48 @@ msgid "Timeout Destination"
 msgstr "Destianzione Timeout"
 
 #: views/form.php:79
-msgid "Destination when TIMEOUT is value of QUEUESTATUS"
-msgstr "Destinazione quando la variabile QUEUESTATUS ha valore TIMEOUT"
+msgid "Destination when call leave the queue because has reached maximum waiting time"
+msgstr "Destinazione quando la chiamata è uscita dalla coda perché ha raggiunto il tempo massimo di attesa"
 
 #: views/form.php:87
 msgid "Full Destination"
 msgstr "Destianzione Full"
 
 #: views/form.php:97
-msgid "Destination when FULL is value of QUEUESTATUS"
-msgstr "Destinazione quando la variabile QUEUESTATUS ha valore FULL"
+msgid "Destination when call leave because queue has reached maximum number of waiting calls"
+msgstr "Destinazione quando la chiamata è uscita perché la coda ha raggiunto il numero massimo di chiamate in attesa"
 
 #: views/form.php:105
 msgid "Joinempty Destination"
 msgstr "Destinazione Joinempty"
 
 #: views/form.php:115
-msgid "Destination when JOINEMPTY is value of QUEUESTATUS"
-msgstr "Destinazione quando la variabile QUEUESTATUS ha valore JOINEMPTY"
+msgid "Destination when call leave the queue because there wasn't any agent"
+msgstr "Destinazione quando la chiamata è uscita perché al momento del suo ingresso in coda non c'erano agenti collegati"
 
 #: views/form.php:123
 msgid "Leaveempty Destination"
 msgstr "Destianzione Leaveempty"
 
 #: views/form.php:133
-msgid "Destination when LEAVEEMPTY is value of QUEUESTATUS"
-msgstr "Destinazione quando la variabile QUEUESTATUS ha valore LEAVEEMPTY"
+msgid "Destination when call leave the queue because during the waiting all available agent logged off"
+msgstr "Destinazione quando la chiamata è uscita dalla coda perché durante l'attesa tutti gli agenti disponibili si sono scollegati"
 
 #: views/form.php:141
 msgid "Joinunavail Destination"
 msgstr "Destinazione Joinunavail"
 
 #: views/form.php:151
-msgid "Destination when JOINUNAVAIL is value of QUEUESTATUS"
-msgstr "Destinazione quando la variabile QUEUESTATUS ha valore JOINUNAVAIL"
+msgid "Destination when call leave the queue because there wasn't available agents"
+msgstr "Destinazione quando la chiamata è uscita dalla coda perché al momento del suo ingresso non c'erano agenti pronti a rispondere"
 
 #: views/form.php:159
 msgid "Leaveunavail Destination"
 msgstr "Destinazione Leaveunavail"
 
 #: views/form.php:169
-msgid "Destination when LEAVEUNAVAIL is value of QUEUESTATUS"
-msgstr "Destinazione quando la variabile QUEUESTATUS ha valore LEAVEUNAVAIL"
+msgid "Destination when call leave the queue because during the waiting all available agents changed status"
+msgstr "Destinazione quando la chiamata è uscita dalla coda perché durante l'attesa tutti gli agenti pronti a rispondere hanno cambiato stato"
 
 #: views/form.php:177
 msgid "Continue Destination"
