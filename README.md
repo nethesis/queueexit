@@ -1,3 +1,7 @@
+# OBSOLETE!
+
+The module is now here https://github.com/nethesis/ns8-nethvoice
+
 # QueueExit FreePBX Module
 QueueExit FreePBX module allow to configure a different destination for failed calls of a queue.
 This module can choose a different destination based on the value of QUEUESTATUS variable.
